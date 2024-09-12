@@ -8,7 +8,7 @@ import 'package:mime/mime.dart';
 
 class Api {
   static Future<String> generateText({String? prompt, File? file}) async {
-    const apiKey = 'AIzaSyCrnLBavACgkkn6XQGnHA77dl_0411l2K8';
+    const apiKey = '**YOUR API KEY HERE**';
     Uint8List? bytes;
     String? mimeType;
     List<Content> contentList = [];
