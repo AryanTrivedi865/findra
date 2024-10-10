@@ -1,4 +1,4 @@
-name: findra
+name: Findra
 description: "AI Image Conversational Chatbot"
 publish_to: 'none'
 version: 1.0.0+1
@@ -9,13 +9,6 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.8
-  lottie: ^3.1.2
-  image_picker: ^1.1.2
-  google_generative_ai: ^0.4.6
-  mime: ^1.0.6
-  url_launcher: ^6.3.0
-  speech_to_text: ^7.0.0
-  flutter_tts: ^4.0.2
 
 dev_dependencies:
   flutter_test:
@@ -23,9 +16,3 @@ dev_dependencies:
   flutter_lints: ^4.0.0
 flutter:
   uses-material-design: true
-  assets:
-    - lib/assets/ai.json
-  fonts:
-    - family: "ABeeZee"
-      fonts:
-            - asset: lib/assets/fonts/ABeeZee.ttf
