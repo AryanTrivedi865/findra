@@ -1,4 +1,3 @@
-import 'package:findra/screens/main_screen.dart';
 import 'package:flutter/material.dart';
 
 Future<void> main() async {
@@ -10,11 +9,10 @@ class Findra extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       title: 'Findra',
       debugShowCheckedModeBanner: false,
-
-      home: const MainScreen(),
+      home: Scaffold(),
     );
   }
 }
